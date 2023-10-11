@@ -1,4 +1,6 @@
 #include "main.h"
+#include "3-main.c"
+#include "_putchar.c"
 
 /**
  * _islower - check for lower case letter
@@ -8,6 +10,13 @@
 
 int _islower(int c)
 {
-	return (c >= 97 && c <= 122);
+	if (c >= 97 && c <= 122)
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 
 }
