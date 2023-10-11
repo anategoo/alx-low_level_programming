@@ -1,6 +1,4 @@
 #include "main.h"
-#include "_putchar.c"
-#include "4-main.c"
 
 /**
  *  * _isalpha - check for lower case letter
