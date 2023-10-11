@@ -1,5 +1,4 @@
 #include "main.h"
-#include "3-main.c"
 #include "_putchar.c"
 
 /**
