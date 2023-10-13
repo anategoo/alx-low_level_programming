@@ -7,16 +7,17 @@
 
 void print_most_numbers(void)
 {
-	for (int a = 0; a <= 9; a++)
+	char n = 0;
+
+	while (n <= 9)
 	{
-	if (a == 2 || a == 4)
-	{
-		continue;
-	}
-	else
-	{
-		_putchar(a + '0');
-	}
+		if (n != 2 && n != 4)
+		{
+			_putchar('0' + n);
+		}
+
+		n++;
 	}
 	_putchar('\n');
+
 }
